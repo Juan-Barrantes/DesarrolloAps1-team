@@ -1,6 +1,6 @@
 CREATE DATABASE bd_NegocioAutos;
 go
-
+ -- test
 Use bd_NegocioAutos;
 
  Create Table tb_Agencia(
@@ -31,7 +31,7 @@ Create Table tb_Auto(
 	codMarca smallint not null FOREIGN KEY REFERENCES tb_Marca,
 	marca varchar(20) not null,
 	modelo varchar(20) not null,
-	añoFabricacion smallint null,
+	aï¿½oFabricacion smallint null,
 	precio money not null);
 
 Create Table tb_Cliente(
